@@ -1,0 +1,317 @@
+body{
+    background-color: var(--cor-primeira);
+    font-family: var(--font-dm-sans);
+}
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 12px;
+    width: 300px;
+}
+
+.sidebar__navigation{
+    background-color: var(--cor-segunda);
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+
+.sidebar__navigation .logo{
+    background: var(--cor-segunda);
+    display: flex;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+
+.sidebar nav ul{
+    margin-top: 20px;
+    padding: 0 20px 10px 20px;
+}
+
+.sidebar ul li{
+    padding: 10px 0;
+}
+
+.sidebar nav ul li a{
+    color: var(--cor-terceira);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    
+}
+
+.logo img{
+    width: 80px;
+}
+
+.library{
+    background-color: var(--cor-segunda);
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 4px 8px;
+    color: var(--cor-terceira);
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 10px;
+    
+}
+
+.library__content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.library .library__button{
+    display: flex;
+    margin-right: 10px;
+    color: var(--cor-terceira);
+    background-color: transparent;
+    border: 14px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    padding: 20px 10px;
+}
+
+.library .library__button .fa-book{
+    font-size: 20px;
+    margin-right: 10px;
+    font-weight: 300;
+    padding-right: 8px;
+
+}
+
+.library .library__content .fa-plus{
+    margin: 24px 10px;
+}
+
+.section-playlist{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 5px; 
+    background-color: var(--cor-setima);
+    color: var(--cor-terceira); font-weight: 600;
+    font-size: 14px;
+    margin: 8px 0px;
+    padding: 16px 20px;
+    border-radius: 10px
+}
+
+.section-playlist .section-playlist__content{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.section-playlist__content .text{
+    padding-bottom: 14px;
+    color: var(--cor-quarta);
+}
+
+.section-playlist__content .title{
+    font-weight: 700;
+}
+
+.section-playlist__content .subtitle{
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.section-playlist__content .section-playlist__button{
+    display: flex;
+    justify-content: center;
+    background-color:var(--cor-quarta);
+    color: var(--cor-quinta);
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 10px;
+    margin-top: 12px;
+    border: 0;
+    width: 113px;
+
+}
+
+.section-podcast{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 5px; 
+    background-color: var(--cor-setima);
+    color: var(--cor-terceira)3; font-weight: 600;
+    font-size: 14px;
+    margin: 8px 0px;
+    padding: 16px 20px;
+    border-radius: 10px
+}
+
+.section-podcast .section-podcast__content{
+    display: flex;
+    flex-direction: column;
+}
+
+.section-podcast__content .text{
+    padding-bottom: 14px;
+    color: var(--cor-quarta);
+}
+
+.section-podcast__content .title{
+    font-weight: 700;
+}
+
+.section-podcast__content .subtitle{
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.section-podcast__content .section-podcast__button{
+    display: flex;
+    justify-content: center;
+    background-color: var(--cor-quarta);
+    color: var(--cor-quinta);
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 10px;
+    margin-top: 12px;
+    border: 0;
+    width: 130px;
+}
+
+.sidebar .links__container{
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 10px;
+    justify-content: start;
+    margin: 30px 20px 10px 20px;
+}
+
+.sidebar .links__container a{
+    color: var(--cor-terceira);
+    font-weight: 500;
+    font-size: 10px;
+    text-decoration: none;
+}
+
+.links__container .links__container__01{
+    margin: 0 16px 0 0;
+}
+
+.links__container .links__container__definicao{
+    grid-row: span 2;
+}
+
+.sidebar .cookies{
+    margin: 0px 20px 25px 20px;
+}
+
+.sidebar .cookies a{
+    gap: 5px;
+    color: var(--cor-terceira);
+    font-weight: 500;
+    font-size: 11px;
+    text-decoration: none;
+}
+
+.sidebar .cookies a:hover{
+    text-decoration: underline;
+}
+
+.languages .languages__button{
+    align-items: center;
+    background-color: transparent;
+    border: 1px solid var(--cor-oitava);
+    color: var(--cor-quarta);
+    font-weight: bold;
+    cursor: pointer;
+    width: 170px;
+    margin: 8px;
+    padding: 8px;
+    border-radius: 20px;
+}
+
+.disclaimer-premium{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to right, #ae2896, #509bf5);
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.disclaimer-premium .text {
+    flex-shrink: 0;
+    
+}
+
+.disclaimer-premium .disclaimer-premium__title {
+    color: var(--cor-quarta);
+    text-transform: none;
+    font-weight: 700;
+    font-size: 12px;
+    margin-bottom: 10px;
+    
+}
+
+.disclaimer-premium .disclaimer-premium__subtlite{
+    color: var(--cor-quarta);
+    text-transform: none;
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.disclaimer-premium .button__premium__button{
+    background-color: var(--cor-quarta);
+    color: var(--cor-quinta);
+    font-size: 16px;
+    font-weight: bold;
+    padding: 14px 30px;
+    border: 0px;
+    border-radius: 40px;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+  /* HOVER */
+  .fa-home:hover{
+    color: var(--cor-quarta);
+  }
+  
+  .home-text:hover{
+    color: var(--cor-quarta);
+  }
+  
+  .fa-search:hover{
+    color: var(--cor-quarta);
+  }
+  
+  .search-text:hover{
+    color: var(--cor-quarta);
+  }
+  
+  .fa-book:hover{
+    color: var(--cor-quarta);
+  }
+  
+  .book-text:hover{
+    color: var(--cor-quarta);
+  }
+  
+  .section-playlist__button:hover{
+    background-color: var(--cor-sexta);
+  }
+  
+  .section-podcast__button:hover{
+    background-color: var(--cor-sexta);
+  }
+  

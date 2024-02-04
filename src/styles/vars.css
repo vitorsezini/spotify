@@ -1,0 +1,21 @@
+:root{
+    /* FONT */
+    --font-dm-sans: "DM Sans", sans-serif;
+
+    /* COLORS */
+    --cor-primeira:  rgb(0, 0, 0) ;
+    --cor-segunda: #121212;
+    --cor-terceira: #b3b3b3;
+    --cor-quarta: #fff;
+    --cor-quinta: #000;
+    --cor-sexta: #a7a7a7;
+    --cor-setima: #242424;
+    --cor-oitava: #878787;
+    --cor-nona: #181818;
+    --cor-decima: #252525;
+    --cor-decima-primeira: #6a6a6a;
+    --bg-icon: #131313;
+    --bg-arrow-color: rgba(0,0,07) 
+
+    
+}
